@@ -1,68 +1,96 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Page Title</title>
+    <meta charset="utf-8" />
 </head>
+
 <body>
-    <h1>Welcome to Piyawat Side Line</h1>
-    <p><b>Piyawat</b> is 
-    <hr>Gay
-    </p>
-    <ol type="I">
-        <li>Smash</li>
-        <li>Pass</li>
-    </ol>
-    <a href="https://github.com/PSBLaLaHey/SE_CAMP">If you click you not "Gay".</a>
-    <br>
-    <label for="Gayy">123456</label>
-    <table widt="100%"border=1>
-        <thead>
-            <tbody>
-                <tr>
-                    <td>#</td>
-                    <td>Name</td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>John</td>
-                </tr>
-            </tbody>
-            
-        </thead>
+    <h1>Workshop #HTML - FORM</h1>
     </table>
     <form action="#">
         <table>
             <tr>
-                <td>input text</td>
-                <td><input type="text"></td>
+                <td>ชื่อ</td>
+                <td><input type="text" /></td>
+
             </tr>
             <tr>
-                <td>input date</td>
-                <td><input type="date"></td>
+                <td>สกุล</td>
+                <td><input type="text" /></td>
+
             </tr>
             <tr>
-                <td>Select</td>
+                <td>วัน/เดือน/ปีเกิด</td>
+                <td><input type="date" /></td>
+            </tr>
+            <tr>
+                <td>อายุ</td>
+                <td><input type="number" /></td>
+
+            </tr>
+            <tr>
+                <td>เพศ</td>
+                <td>
+                    <input id="radio_a" type="radio" name="same_radio" />
+                    <label for="radio_a">ชาย</label>
+                    <input id="radio_b" type="radio" name="same_radio" />
+                    <label for="radio_b">หญิง</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    File
+                </td>
+                <td><input type="file"></td>
+            </tr>
+            <tr>
+                <td>ที่อยู่</td>
+                <td><textarea rows="4" placeholder="กรุณาป้อนข้อมูล"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    select
+                </td>
                 <td>
                     <select>
-                        <option value="" disabled selected>
-                            <option>A</option>
-                            <option>B</option>
-                        </option>
+                        <option value="" disabled selected>-</option>
+                        <option>สีแดง</option>
+                        <option>สีเขียว</option>
                     </select>
                 </td>
             </tr>
             <tr>
+                <td>แนวเพลงที่ชอบ</td>
                 <td>
-                    botton
+                    <input id="radio_เพลง1" type="radio" name="เพลง_radio" />
+                    <label for="radio_เพลง1">เพื่อชีวิต</label>
+                    <input id="radio_เพลง2" type="radio" name="เพลง_radio" />
+                    <label for="radio_เพลง2">ลูกทุ่ง</label>
+                    <input id="radio_เพลง3" type="radio" name="เพลง_radio" />
+                    <label for="radio_เพลง3">อื่นๆ</label>
+                </td>
+            </tr>
+            <tr>
+                <td><br><input type="checkbox">ยินยอมให้เก็บข้อมูล</td>
+            </tr>
+            <tr>
+                <td>
+                    <br>
+                    <input type="reset" value="Reset">
+                    
                 </td>
                 <td>
-                    <input type="button" value="dfgsg">
+                    <br>
+                    <input type="submit" value="Submit">
                 </td>
             </tr>
         </table>
+        
     </form>
 </body>
+
 </html>
