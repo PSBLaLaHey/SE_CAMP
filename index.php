@@ -26,7 +26,7 @@
             color: rgb(255, 255, 255);
         }
         .main{
-            background-color:rgb(206, 172, 223);
+            background-color: rgb(206, 172, 223);
             width: 100%;
             height: 100vh;
             display:flex;
@@ -34,9 +34,9 @@
             align-items: center;
         }
         .box {
-            
             width: 150px;
             height: 265px;
+            border: 2px solid black;
             overflow: scroll;
             overflow-x:hidden;
             font-size: 24px;
