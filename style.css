@@ -13,7 +13,7 @@
 }
 
 .box:hover{
-    box-shadow: 1px 1px 45px 15px rgb(52, 53, 54);
+    box-shadow: 1px 1px 45px 15px rgb(206, 172, 223);
     animation-name: rgbC;
     animation-duration: 3s;
     animation-timing-function: linear;
