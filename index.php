@@ -1,39 +1,45 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>This id PHP <?php echo 'Hello is me'?></h1>
-    <?php echo 'Gay'?>
-    <div>
-        <p>1</p>
-        <?php
-        {
-            echo " <h1>my Gay friend Bom</h1>";
-        ?>
-        <p>2</p>
-        <?php
-        }
-        ?>
-        <p>3</p>
-    </div>
-    <div>
-        <?php
-            $var_a=1;
-            $var_a="1$var_a";
-            print_r($var_a);
-            echo "<br>";
-            echo $var_a+$var_a;
-            echo "<br>";
-            $arry = arry();
-            $arry[]=12;
-            for($i=0;$i<sizeof($arry);$i++){
+<html>
 
-            }
-        ?>
-    </div>
+<head>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <?php $multi_x = 2; ?>
+    <h1>ตารางสูตรคูณแม่ <?php echo $multi_x ?></h1>
+    <table>
+        <tbody>
+            <tr>
+                <td>
+                    <?php
+                    for ($i=1;$i<=24;$i++){
+                        echo $multi_x;
+                    ?>
+                </td>
+                <td>x</td>
+                <td>
+                    <?php
+                    echo $i."=";
+                    echo $multi_x*$i ." ";
+                    echo "<br>";
+                    ?>
+                </td>
+                <td>
+                    <?php
+                    }
+                    
+                    ?>
+                    <br>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <style>
+        table {
+            width: 50px;
+            height: 265px;
+        }
+    </style>
 </body>
+
 </html>
